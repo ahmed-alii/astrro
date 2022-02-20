@@ -1,0 +1,132 @@
+body {
+  background-color: #000000 !important;
+}
+
+header nav {
+  background-color: #050C27 !important;
+  padding: 20px 0 !important;
+  margin-bottom: 100px;
+  box-shadow: 0 0 20px #fafafa30;
+}
+header nav a {
+  color: white !important;
+}
+header nav .brand-wrapper {
+  width: 160px;
+}
+header nav .brand-wrapper .brand {
+  position: absolute;
+  height: 160px;
+  width: 160px;
+  background-color: #050C27;
+  border-radius: 50%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -10px;
+}
+header nav .brand-wrapper .brand img {
+  width: 80px;
+}
+
+.connect-button {
+  border-radius: 27.5px;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  background: linear-gradient(#04124b 0%, #919cd2 100%);
+  border: none;
+  color: white !important;
+}
+
+.hero-section {
+  color: white;
+}
+.hero-section .image-main {
+  max-width: 260px;
+  margin-bottom: 40px;
+}
+.hero-section h2 {
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+.hero-section p {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.social-bar-wrapper {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  max-width: 160px;
+}
+.social-bar-wrapper .social-bar {
+  padding: 10px;
+  border-radius: 16px 0 0 16px;
+  position: relative;
+  background: linear-gradient(90deg, #919cd2 43%, #04124b 100%);
+}
+.social-bar-wrapper .social-bar a {
+  display: block;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+.social-bar-wrapper .social-bar a img {
+  height: 30px;
+  width: 30px;
+}
+.social-bar-wrapper .social-bar .handle {
+  height: 60px;
+  width: 20px;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+  position: absolute;
+  left: -16px;
+  background: linear-gradient(90deg, #919cd2 43%, #919cd2 100%);
+  top: calc(50% - 30px);
+}
+
+.content-card {
+  position: relative;
+}
+.content-card .content-heading {
+  border: 2px solid white;
+  border-radius: 10px;
+  max-width: 60%;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  background: #1A1D3A;
+  transform: translateY(40px);
+}
+.content-card .content-image-circle {
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  background: #1A1D3A;
+  transform: translateY(70px);
+}
+.content-card .content-body {
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  margin: auto;
+  background: #1A1D3A;
+  padding: 60px 30px;
+}
+.content-card .content-body ul {
+  list-style: circle;
+}
+
+/*# sourceMappingURL=styles.css.map */

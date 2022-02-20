@@ -1,0 +1,140 @@
+body{
+  background-color: #000000 !important;
+}
+
+header{
+  //background-image: url("./assets/bg-images.png");
+  nav{
+    background-color: #050C27 !important;
+    padding: 20px 0 !important;
+    margin-bottom: 100px;
+    box-shadow: 0 0 20px #fafafa30;
+
+    a{
+      color: white !important;
+    }
+    .brand-wrapper{
+      width: 160px;
+      .brand{
+        position: absolute;
+        height: 160px;
+        width: 160px;
+        background-color: #050C27;
+        border-radius: 50%;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: -10px;
+        img{
+          width: 80px;
+        }
+      }
+    }
+
+  }
+}
+
+.connect-button{
+  border-radius: 27.5px;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  background: linear-gradient(#04124b 0%, #919cd2 100%);
+  border: none;
+  color: white !important;
+}
+
+.hero-section{
+  color: white;
+
+  .image-main{
+    max-width: 260px;
+    margin-bottom: 40px;
+  }
+  h2{
+    font-weight: 300;
+    margin-bottom: 40px;
+  }
+  p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 40px;
+  }
+}
+
+.social-bar-wrapper{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  max-width: 160px;
+
+  .social-bar{
+    padding: 10px;
+    border-radius: 16px 0 0 16px ;
+    position: relative;
+    background: linear-gradient(90deg, rgba(145,156,210,1) 43%, rgba(4,18,75,1) 100%);
+
+    a{
+      display: block;
+      margin-bottom: 8px;
+      margin-top: 8px;
+      img{
+        height: 30px;
+        width: 30px;
+      }
+    }
+
+    .handle{
+      height: 60px;
+      width: 20px;
+      border-top-left-radius: 16px;
+      border-bottom-left-radius: 16px;
+      position: absolute;
+      left: -16px;
+      background: linear-gradient(90deg, #919cd2 43%, rgb(145 156 210) 100%);
+      top: calc(50% - 30px);
+    }
+  }
+}
+
+.content-card{
+  position: relative;
+  .content-heading{
+    border: 2px solid white;
+    border-radius: 10px;
+    max-width: 60%;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    background: #1A1D3A;
+    transform: translateY(40px);
+  }
+  .content-image-circle{
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    background: #1A1D3A;
+    transform: translateY(70px);
+  }
+  .content-body{
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    margin: auto;
+    background: #1A1D3A;
+    padding: 60px 30px;
+
+    ul{
+      list-style: circle;
+    }
+  }
+}
